@@ -17,3 +17,7 @@ package-lock.json
 *.log
 *.tmp
 dist/
+
+# imagens de conferencia geradas durante o desenvolvimento
+prototipo-vs-site.jpg
+pagina-inteira.jpg
