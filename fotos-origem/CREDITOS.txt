@@ -1,0 +1,40 @@
+De onde vieram as imagens de origem
+===================================
+
+MATERIAL DO PROPRIO CLIENTE
+---------------------------
+  logo-pastri.webp       logotipo enviado pelo cliente (amarelo sobre fundo
+                         branco; o script transforma o branco em transparencia)
+  fachada-pastri.jpg     foto da frente da empresa, enviada pelo cliente. Aparece
+                         na secao "Sobre nos", recortada no muro com o logo, no
+                         portao e na caminhonete (o recorte em pixels esta em
+                         scripts/gerar-imagens.cjs, campo "recorte")
+  prototipo-hero.webp    prototipo da hero aprovado pelo cliente. NAO e usado
+                         pelo site: fica aqui so como referencia. Dele sairam o
+                         amarelo da marca (#f8c204), a inclinacao da diagonal, a
+                         listra amarela e a altura da hero.
+
+
+FOTOS DO BANCO DE IMAGENS PEXELS
+--------------------------------
+Licenca Pexels: uso gratuito, inclusive comercial, sem precisar dar credito.
+Nao e permitido revender a foto sem alteracao nem dar a entender que a pessoa
+fotografada apoia/endossa a empresa. Texto da licenca: https://www.pexels.com/license/
+
+  hero-usinagem.jpg        https://www.pexels.com/photo/20607184/
+  card-tornearia.jpg       https://www.pexels.com/photo/11951233/
+  card-fresamento.jpg      https://www.pexels.com/photo/28929513/
+  card-manutencao.jpg      https://www.pexels.com/photo/4489758/
+  faixa-oficina.jpg        https://www.pexels.com/photo/12951631/
+  projeto-torno-cnc.jpg    https://www.pexels.com/photo/7018173/
+  projeto-fresamento.jpg   https://www.pexels.com/photo/8956313/
+  projeto-solda.jpg        https://www.pexels.com/photo/34039390/
+  projeto-retifica.jpg     https://www.pexels.com/photo/17156135/
+
+Sao fotos ILUSTRATIVAS: mostram o tipo de servico, nao os trabalhos da Pastri.
+A pagina avisa isso na secao Projetos. Quando o cliente mandar as fotos reais da
+oficina, troque o arquivo aqui (mesmo nome) e rode: npm run imagens
+
+As fotos sao geradas com pouca cor (campo "cinza" em scripts/gerar-imagens.cjs):
+a hero fica quase em preto e branco, como no prototipo, e as demais ficam entre
+o preto e branco e a cor original, para combinar com o amarelo da marca.

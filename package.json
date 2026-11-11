@@ -1,0 +1,12 @@
+{
+  "name": "pastri-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da Pastri Usinagem - usinagem industrial, manutenção de máquinas-ferramenta e torno CNC com ferramenta acionada (Campo Limpo Paulista/SP). Estático; o build só gera a pasta dist/.",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node serve.js",
+    "preview": "node build.js && node serve.js dist",
+    "imagens": "node scripts/gerar-imagens.cjs"
+  }
+}

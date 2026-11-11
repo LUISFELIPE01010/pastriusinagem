@@ -1,0 +1,9 @@
+As fontes deste site sao usadas sob a SIL Open Font License, Version 1.1.
+
+Inter — Copyright (c) 2016 The Inter Project Authors (https://github.com/rsms/inter)
+  arquivo: inter-latin.woff2 (subconjunto latino, peso variavel 400-800)
+
+Poppins — Copyright (c) 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
+  arquivos: poppins-700.woff2 e poppins-800.woff2 (subconjunto latino)
+
+Texto completo da licenca: https://scripts.sil.org/OFL

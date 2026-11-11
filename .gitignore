@@ -1,0 +1,19 @@
+# sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+
+# dependencias e builds
+node_modules/
+package-lock.json
+.vercel/
+.env
+.env.*
+
+# arquivos temporarios
+*.log
+*.tmp
+dist/
