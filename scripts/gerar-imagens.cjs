@@ -49,12 +49,15 @@ const QUALIDADE = { webp: 80, avif: 52 };
 const FOTOS = {
   // 2,25 e a proporcao da area da hero no computador. Cortar ja nessa proporcao
   // evita o navegador cortar de novo por cima. Quase sem cor, como no prototipo.
-  'hero-pastri':        { de: 'hero-pastri.webp',        proporcao: 2.25,  larguras: [640, 900, 1200, 1500, 1900], foco: 0.45, cinza: 0.10 },
+  // A hero e os tres cards de "Nossos servicos" usam foto de banco de imagens
+  // (Pexels), a pedido do cliente: ficam mais proximos do prototipo aprovado.
+  // Todo o resto do site usa foto da propria Pastri.
+  'hero-usinagem':      { de: 'hero-usinagem.jpg',      proporcao: 2.25,  larguras: [640, 900, 1200, 1500, 1900], foco: 0.5, cinza: 0.10 },
 
-  // tres cards inclinados da secao "Nossa atuacao"
-  'card-tornearia':     { de: 'card-tornearia.webp',     proporcao: 1.65,  larguras: [420, 640, 900], cinza: 0.6 },
-  'card-fresamento':    { de: 'card-fresamento.webp',    proporcao: 1.65,  larguras: [420, 640, 900], cinza: 0.6 },
-  'card-ferramentaria': { de: 'card-ferramentaria.webp', proporcao: 1.65,  larguras: [420, 640, 900], cinza: 0.6 },
+  // tres cards inclinados da secao "Nossos servicos"
+  'card-tornearia':     { de: 'card-tornearia.jpg',     proporcao: 1.65,  larguras: [420, 640, 900], cinza: 0.55 },
+  'card-fresamento':    { de: 'card-fresamento.jpg',    proporcao: 1.65,  larguras: [420, 640, 900], foco: 0.40, cinza: 0.55 },
+  'card-manutencao':    { de: 'card-manutencao.jpg',    proporcao: 1.65,  larguras: [420, 640, 900], cinza: 0.55 },
 
   // fundo da faixa escura do processo (vista geral da oficina)
   'oficina-vista':      { de: 'oficina-vista.webp',      proporcao: 2.2,   larguras: [800, 1200, 1600], foco: 0.5, cinza: 0.25 },
@@ -179,7 +182,7 @@ async function fazerLogo() {
 /* ------------------------------------------------- imagem de compartilhar -- */
 async function fazerOg(logoPng) {
   const W = 1200, H = 630;
-  const foto = await sharp(path.join(ORIGEM, FOTOS['hero-pastri'].de))
+  const foto = await sharp(path.join(ORIGEM, FOTOS['hero-usinagem'].de))
     .resize({ width: W, height: H, fit: 'cover', position: 'centre', kernel: 'lanczos3' })
     .modulate({ saturation: 0.1 })
     .toBuffer();
