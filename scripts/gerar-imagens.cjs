@@ -57,7 +57,7 @@ const FOTOS = {
   // tres cards inclinados da secao "Nossos servicos"
   'card-tornearia':     { de: 'card-tornearia.jpg',     proporcao: 1.65,  larguras: [420, 640, 900], cinza: 0.55 },
   'card-fresamento':    { de: 'card-fresamento.jpg',    proporcao: 1.65,  larguras: [420, 640, 900], foco: 0.40, cinza: 0.55 },
-  'card-manutencao':    { de: 'card-manutencao.jpg',    proporcao: 1.65,  larguras: [420, 640, 900], cinza: 0.55 },
+  'card-manutencao':    { de: 'card-manutencao.webp',   proporcao: 1.65,  larguras: [420, 640, 900], cinza: 0.75 },
 
   // fundo da faixa escura do processo (vista geral da oficina)
   'oficina-vista':      { de: 'oficina-vista.webp',      proporcao: 2.2,   larguras: [800, 1200, 1600], foco: 0.5, cinza: 0.25 },
