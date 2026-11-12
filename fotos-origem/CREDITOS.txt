@@ -1,13 +1,13 @@
 De onde vieram as imagens de origem
 ===================================
 
-Quase tudo no site e foto da propria Pastri. As excecoes sao a hero e os tres
-cards de "Nossos servicos", que usam foto de banco de imagens a pedido do
+Quase tudo no site e foto da propria Pastri. As excecoes sao a hero e dois dos
+tres cards de "Nossos servicos", que usam foto de banco de imagens a pedido do
 cliente, por ficarem mais proximos do prototipo aprovado (ver mais abaixo).
 
 
-FOTOS DO BANCO DE IMAGENS PEXELS (hero e os tres cards)
--------------------------------------------------------
+FOTOS DO BANCO DE IMAGENS PEXELS (hero e dois cards)
+----------------------------------------------------
 Licenca Pexels: uso gratuito, inclusive comercial, sem precisar dar credito.
 Nao e permitido revender a foto sem alteracao nem dar a entender que a pessoa
 fotografada apoia/endossa a empresa. Texto da licenca: https://www.pexels.com/license/
@@ -15,12 +15,19 @@ fotografada apoia/endossa a empresa. Texto da licenca: https://www.pexels.com/li
   hero-usinagem.jpg      https://www.pexels.com/photo/20607184/
   card-tornearia.jpg     https://www.pexels.com/photo/11951233/
   card-fresamento.jpg    https://www.pexels.com/photo/28929513/
-  card-manutencao.jpg    https://www.pexels.com/photo/4489758/
 
-Sao quatro fotos ILUSTRATIVAS: mostram o tipo de servico, nao a oficina da
+Sao tres fotos ILUSTRATIVAS: mostram o tipo de servico, nao a oficina da
 Pastri. Para troca-las por foto real, salve a nova com o mesmo nome e rode
-"npm run imagens". A galeria de Projetos, o maquinario, a faixa do processo e a
-fachada ja sao todas da propria empresa.
+"npm run imagens". A galeria de Projetos, o maquinario, a faixa do processo, a
+fachada e o card de Manutencao ja sao todos da propria empresa.
+
+
+FOTO DA OFICINA ENVIADA PELO CLIENTE (12/11/2026)
+-------------------------------------------------
+  card-manutencao.webp   operador da Pastri ajustando as ferramentas no torno
+                         CNC, com o logo da empresa na camisa e na parede.
+                         Entrou no lugar da foto de banco de imagens que estava
+                         no card "Manutencao" de "Nossos servicos".
 
 
 DO PORTFOLIO DA EMPRESA
