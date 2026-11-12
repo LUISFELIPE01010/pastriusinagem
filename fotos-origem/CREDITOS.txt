@@ -31,28 +31,43 @@ versao desbotada e com marca d'agua da mesma foto; o que foi aproveitado e so o
 miolo desse quadro, sem marca d'agua e sem o veu branco.
 
 
-  oficina-vista.png            vista geral da oficina (slide 6) — faixa do processo
+  oficina-vista.webp            vista geral da oficina (slide 6) — faixa do processo
 
-  maq-orientools.png           Centro de usinagem Orientools (slide 7)
-  maq-simco.png                Centro de usinagem SIMCO SM1000 (slide 8)
-  maq-diplomat.png             Fresa CNC Diplomat / Petrus (slide 9)
-  maq-romi.png                 Torno CNC Romi Centur 30D (slide 10)
-  maq-itb200.png               Torno CNC ITB-200/750 (slide 11)
-  maq-itbt500.png              Torno CNC ITBT 500 (slide 12)
-  maq-retifica.png             Retifica plana Sulmecanica (slide 13)
-  maq-calvi.png                Torno mecanico Calvi (slide 14)
-  maq-fresa-ferramenteira.png  Fresa ferramenteira ISO 40 Total (slide 15)
-  maq-rosqueadeira.png         Rosqueadeira eletronica BT fixo (slide 16)
+  maq-orientools.webp           Centro de usinagem Orientools (slide 7)
+  maq-simco.webp                Centro de usinagem SIMCO SM1000 (slide 8)
+  maq-diplomat.webp             Fresa CNC Diplomat / Petrus (slide 9)
+  maq-romi.webp                 Torno CNC Romi Centur 30D (slide 10)
+  maq-itb200.webp               Torno CNC ITB-200/750 (slide 11)
+  maq-itbt500.webp              Torno CNC ITBT 500 (slide 12)
+  maq-retifica.webp             Retifica plana Sulmecanica (slide 13)
+  maq-calvi.webp                Torno mecanico Calvi (slide 14)
+  maq-fresa-ferramenteira.webp  Fresa ferramenteira ISO 40 Total (slide 15)
+  maq-rosqueadeira.webp         Rosqueadeira eletronica BT fixo (slide 16)
 
 
-  projeto-eixos.png            lote de eixos usinados (slide 23)
-  projeto-buchas.png           buchas de aco (slide 23)
-  projeto-anel.png             anel de grande diametro (slide 23)
-  projeto-buchas-rosca.png     buchas com rosca interna (slide 23)
-  projeto-dispositivo.png      dispositivo de fixacao (slide 20)
-  projeto-estampo.png          ferramenta de estampo (slide 19)
-  projeto-molde.png            relevo usinado em aluminio (slide 24)
-  projeto-bucha-flangeada.png  bucha flangeada retificada (slide 24)
+  projeto-eixos.webp           lote de eixos usinados (slide 23)
+  projeto-buchas.webp          buchas de aco (slide 23)
+  projeto-anel.webp            anel de grande diametro (slide 23)
+  projeto-buchas-rosca.webp    buchas com rosca interna (slide 23)
+  projeto-dispositivo.webp     dispositivo de fixacao (slide 20)
+  projeto-bicos.webp           bicos desmoldantes para injetoras (slide 19)
+  projeto-molde.webp           relevo usinado em aluminio (slide 24)
+  projeto-bucha-flangeada.webp bucha flangeada retificada (slide 24)
+
+ATENCAO: o projeto-bicos.webp estava publicado no site com o rotulo "ferramenta
+de estampo". O dono da Pastri corrigiu em 12/11/2026: sao bicos desmoldantes
+para injetoras. O rotulo foi trocado e a ferramenta de estampo de verdade entrou
+como projeto-estampo.webp (ver abaixo).
+
+
+FOTOS ENVIADAS PELO DONO DA PASTRI (WhatsApp, 12/11/2026)
+---------------------------------------------------------
+Cada uma veio com a legenda do proprio dono dizendo o que e a peca.
+
+  projeto-estampo.webp            ferramenta de estampo
+  projeto-molde-injecao.webp      molde de injecao de borracha
+  projeto-dispositivo-maquina.webp  dispositivos montados na maquina
+  projeto-buchas-bronze.webp      bucha de bronze torneada
 
 
 MATERIAL ENVIADO ANTES, PELO CLIENTE

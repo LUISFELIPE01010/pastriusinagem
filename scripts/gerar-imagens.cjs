@@ -72,9 +72,14 @@ const FOTOS = {
   'projeto-anel':           { de: 'projeto-anel.webp',           proporcao: 4 / 3, larguras: [380, 560, 760] },
   'projeto-buchas-rosca':   { de: 'projeto-buchas-rosca.webp',   proporcao: 4 / 3, larguras: [380, 560, 760] },
   'projeto-dispositivo':    { de: 'projeto-dispositivo.webp',    proporcao: 4 / 3, larguras: [380, 560, 760] },
-  'projeto-estampo':        { de: 'projeto-estampo.webp',        proporcao: 4 / 3, larguras: [380, 560, 760] },
+  'projeto-bicos':          { de: 'projeto-bicos.webp',          proporcao: 4 / 3, larguras: [380, 560, 760] },
   'projeto-molde':          { de: 'projeto-molde.webp',          proporcao: 4 / 3, larguras: [380, 560, 760], foco: 0.45 },
   'projeto-bucha-flangeada':{ de: 'projeto-bucha-flangeada.webp',proporcao: 4 / 3, larguras: [380, 560, 760] },
+  // fotos enviadas depois pelo dono da Pastri, com a legenda de cada peca
+  'projeto-estampo':           { de: 'projeto-estampo.webp',           proporcao: 4 / 3, larguras: [380, 560, 760], foco: 0.45 },
+  'projeto-molde-injecao':     { de: 'projeto-molde-injecao.webp',     proporcao: 4 / 3, larguras: [380, 560, 760], foco: 0.42 },
+  'projeto-buchas-bronze':     { de: 'projeto-buchas-bronze.webp',     proporcao: 4 / 3, larguras: [380, 560, 760] },
+  'projeto-dispositivo-maquina':{de: 'projeto-dispositivo-maquina.webp',proporcao: 4 / 3, larguras: [380, 560, 760] },
 
   // maquinario: uma foto por maquina, listadas no portfolio do cliente
   'maq-orientools':         { de: 'maq-orientools.webp',         proporcao: 4 / 3, larguras: [320, 480, 640] },
