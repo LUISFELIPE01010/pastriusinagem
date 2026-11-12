@@ -53,11 +53,11 @@ scripts/gerar-imagens.cjs  gera assets/img/ a partir de fotos-origem/
 
 ## O que o `build.js` faz
 
-1. **CSS crítico**: separa as seções do `styles.css` que aparecem na primeira tela (1 a 7 e a 17),
+1. **CSS crítico**: separa as seções do `styles.css` que aparecem na primeira tela (1 a 7 e a 18),
    minifica e coloca dentro do HTML. O resto vira `assets/css/rest.css` e carrega depois, sem
    travar a primeira pintura da página.
 2. **Nome com hash**: cada arquivo de `assets/` ganha um código do próprio conteúdo no nome
-   (`hero-usinagem-1200.bf151efda3.avif`). Por isso a Vercel pode guardar tudo por um ano: se a
+   (`hero-pastri-1200.bf151efda3.avif`). Por isso a Vercel pode guardar tudo por um ano: se a
    foto mudar, o nome muda junto e o navegador baixa a nova.
 3. Copia `robots.txt`, `sitemap.xml`, `llms.txt` e `404.html`, trocando o domínio.
 4. Confere os dados estruturados e avisa se o FAQ do schema não bater com o FAQ que aparece na
@@ -85,12 +85,14 @@ sobre branco não passa no contraste mínimo.
 
 ## Trocar as fotos
 
-As fotos de hoje são **ilustrativas**, de banco de imagens (Pexels, licença livre para uso
-comercial, sem precisar dar crédito). Elas mostram o tipo de serviço, não os trabalhos da Pastri —
-e a própria seção Projetos avisa isso. O ideal é trocar por fotos reais da oficina.
+**Todas as fotos do site são da própria Pastri.** Vieram do portfólio da empresa
+(`2 - Portfolio_Pastri_Profissional.pptx`), mais a foto da fachada e o logotipo enviados antes.
+Não há nenhuma foto de banco de imagens.
 
-A foto da fachada e o logotipo vieram do material do próprio cliente.
-De onde veio cada imagem: [`fotos-origem/CREDITOS.txt`](fotos-origem/CREDITOS.txt).
+No portfólio, as fotos das máquinas estavam dentro de um quadro, por cima de uma versão desbotada
+e com marca d'água da mesma foto. O que foi aproveitado é só o miolo desse quadro — sem marca
+d'água e sem o véu branco. De onde veio cada imagem:
+[`fotos-origem/CREDITOS.txt`](fotos-origem/CREDITOS.txt).
 
 1. Salve a foto nova em `fotos-origem/`, com o mesmo nome do arquivo que você quer substituir.
    Pode ser do tamanho que for: o script corta sozinho.
@@ -112,7 +114,8 @@ Três ajustes por foto, na lista `FOTOS` no começo do `scripts/gerar-imagens.cj
 
 - `foco` — se o assunto ficar cortado, um número de `0` (corta pelo topo) a `1` (corta pela base).
 - `cinza` — quanto de cor sobra, de `0` (preto e branco) a `1` (cor original). A hero usa `0.10`
-  para ficar como no protótipo; os cards usam `0.55` e a galeria `0.7`.
+  para ficar como no protótipo e os três cards inclinados usam `0.6`; as fotos das peças e das
+  máquinas ficam na cor natural (sem o campo).
 - `recorte` — `[esquerda, topo, largura, altura]` em pixels, quando um pedaço exato da foto
   precisa ser usado (é o caso da fachada).
 
@@ -131,12 +134,16 @@ Ao mexer no FAQ, mude o texto **nos dois lugares**: no `<details>` visível e no
 
 ## O que ainda falta (informação que o cliente precisa mandar)
 
-- **Endereço completo** da oficina — hoje o site diz só "Campo Limpo Paulista - SP", e os dados
-  estruturados não têm rua nem CEP. Com o endereço dá para colocar o mapa e melhorar a busca local.
-- **Horário de atendimento** — não está no site nem no schema.
-- **Confirmar se o (11) 99651-3914 é o WhatsApp** — hoje o site usa esse número tanto para ligação
-  quanto para WhatsApp.
-- **Fotos reais** das peças, das máquinas e da oficina, para trocar as fotos ilustrativas de banco
-  de imagens.
-- **Tempo de mercado, certificações e capacidade das máquinas**, se o cliente quiser — nada disso
-  foi inventado no texto.
+- **Horário de atendimento** — é a única informação de contato que falta; não está no site nem no
+  schema. Com ela dá para preencher o `openingHoursSpecification` do `LocalBusiness`.
+- **Coordenadas exatas da oficina** — o endereço completo está no site e no schema, mas o
+  `geo` e as metatags `geo.position`/`ICBM` ainda usam o ponto central de Campo Limpo Paulista.
+  Não foram inventadas coordenadas de rua. O Google consegue localizar pelo endereço; para
+  colocar um mapa na página, pegue a latitude e a longitude no Google Maps.
+- **Autorização para publicar os logos de clientes** — o slide 25 do portfólio tem os logotipos
+  dos clientes e parceiros. Eles **não** foram publicados: usar a marca de outra empresa no site
+  exige autorização dela. Com a autorização por escrito, dá para montar a seção.
+- **Tempo de mercado, certificações e quantidade de funcionários**, se o cliente quiser — nada
+  disso aparece no portfólio e nada foi inventado no texto.
+- **Confirmar se o (11) 99651-3914 (Lucas) é o número do WhatsApp** — hoje o site usa esse número
+  para WhatsApp e o (11) 97485-2637 (Denis) só para ligação.

@@ -28,7 +28,7 @@ const ROOT = __dirname;
 const OUT = path.join(ROOT, 'dist');
 const PLACEHOLDER = 'https://www.pastriusinagem.com.br';
 const SITE = (process.env.SITE_URL || '').trim().replace(/\/+$/, '') || PLACEHOLDER;
-const SECOES_CRITICAS = new Set([1, 2, 3, 4, 5, 6, 7, 17]);
+const SECOES_CRITICAS = new Set([1, 2, 3, 4, 5, 6, 7, 18]);
 const avisos = [];
 
 const lerTexto = (rel) => fs.readFileSync(path.join(ROOT, rel), 'utf8');
@@ -148,7 +148,7 @@ try {
   }
   const tipos = grafo.map((n) => [].concat(n['@type']).join('+'));
   for (const t of ['Organization', 'LocalBusiness', 'FAQPage']) if (!tipos.includes(t)) avisos.push('JSON-LD: falta ' + t);
-  if (tipos.filter((t) => t === 'Service').length !== 6) avisos.push('JSON-LD: esperados 6 Service, achei ' + tipos.filter((t) => t === 'Service').length);
+  if (tipos.filter((t) => t === 'Service').length !== 7) avisos.push('JSON-LD: esperados 7 Service, achei ' + tipos.filter((t) => t === 'Service').length);
 } catch (e) {
   avisos.push('JSON-LD invalido: ' + e.message);
 }

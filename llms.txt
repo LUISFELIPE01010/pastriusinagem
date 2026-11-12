@@ -1,27 +1,50 @@
 # Pastri Usinagem
 
-> Empresa de usinagem industrial em Campo Limpo Paulista/SP. Manutenção e reparação de máquinas-ferramenta, usinagem de alta performance em torno CNC com ferramenta acionada, tornearia, fresamento, soldagem e retífica.
+> Empresa familiar e técnica de Campo Limpo Paulista/SP, especializada em soluções de usinagem e ferramentaria de precisão. Peças específicas sob medida, torno CNC com ferramenta acionada, manutenção de máquinas-ferramenta, fresamento, tornearia, retífica e soldagem.
 
 Site: https://www.pastriusinagem.com.br/
-Cidade: Campo Limpo Paulista - São Paulo - Brasil
-Região atendida: Campo Limpo Paulista, Jundiaí, Várzea Paulista, Francisco Morato e região
-WhatsApp: (11) 99651-3914 — https://wa.me/5511996513914
-Telefone: (11) 99651-3914
+Endereço: Rua César Marquesini, 04 - Jd. Vitória, Campo Limpo Paulista - SP, CEP 13236-272
+Região atendida: Campo Limpo Paulista, Jundiaí, Várzea Paulista, Francisco Morato, Itupeva e região
+WhatsApp: (11) 99651-3914 (Lucas Pastri) — https://wa.me/5511996513914
+Telefone: (11) 97485-2637 (Denis Pastri)
 E-mail: comercial@pastriusinagem.com.br
 Instagram: https://www.instagram.com/pastriusinagem/
+Lema: Precisão que transforma projetos em resultados.
 
 ## Serviços
 
-- **Manutenção e reparação de máquinas-ferramenta** — diagnóstico da máquina parada, recuperação de componentes desgastados, fabricação da peça de reposição e ajuste da máquina para voltar a trabalhar dentro da medida.
+- **Ferramentaria e peças sob medida** — a especialidade da empresa: estampos e matrizes, dispositivos de fixação, ferramentas e peças de reposição feitas a partir do desenho técnico, de uma amostra ou das medidas do cliente.
 - **Torno CNC com ferramenta acionada** — usinagem de alta performance: a máquina fura, fresa e rosqueia na mesma fixação da peça, o que reduz o número de operações, o tempo de produção e o erro de montagem entre uma máquina e outra.
-- **Tornearia** — fabricação e recuperação de eixos, buchas, pinos, flanges e peças redondas em geral, com roscas internas e externas, em peça única ou em lote.
-- **Fresamento e centro de usinagem** — faceamento, desbaste, rasgos, chavetas, canais, furação e rosqueamento, com as medidas repetidas ao longo do lote.
-- **Soldagem** — solda de conjuntos metálicos, reparo e reforço de peças, enchimento de peças para reusinar e acabamento usinado depois da solda, feito no mesmo lugar da usinagem.
-- **Retífica** — acerto da medida final e do acabamento em peças já usinadas ou tratadas, inclusive peças temperadas, e recuperação de assentos e encostos.
+- **Manutenção e reparação de máquinas-ferramenta** — diagnóstico da máquina parada, recuperação de componentes desgastados, fabricação da peça de reposição e ajuste da máquina para voltar a trabalhar dentro da medida.
+- **Fresamento e centro de usinagem** — faceamento, desbaste, rasgos, chavetas, canais, furação e rosqueamento, inclusive com 4º eixo, em centro de usinagem CNC e em fresa ferramenteira.
+- **Tornearia** — eixos, buchas, pinos, flanges e peças redondas em geral, com roscas internas e externas, em torno CNC e em torno mecânico, em peça única ou em lote.
+- **Retífica** — retífica plana para o acerto da medida final e do acabamento em peças já usinadas ou tratadas, com planeza e paralelismo.
+- **Soldagem** — solda de conjuntos metálicos, reparo e reforço de peças e estruturas, enchimento de peças para reusinar e acabamento usinado depois da solda.
+
+## Maquinário
+
+- Centro de usinagem Orientools — comando Fanuc, curso X650 Y400 Z500, com opcional de 4º eixo
+- Centro de usinagem SIMCO SM1000 — comando Siemens 828D, curso 1000 x 500 x 500
+- Fresa CNC Diplomat — comando Heidenhain, curso 1000 x 500 x 500
+- Torno CNC Romi Centur 30D — comando Siemens 828D
+- Torno CNC ITB-200/750
+- Torno CNC ITBT 500
+- Retífica plana Sulmecânica
+- Torno mecânico Calvi
+- Fresa ferramenteira ISO 40 Total
+- Rosqueadeira eletrônica BT fixo
+
+## Quem é a Pastri Usinagem
+
+Empresa familiar e técnica. Desde o início da sua trajetória construiu uma história baseada em transparência, responsabilidade e comprometimento, mantendo um relacionamento sólido e duradouro com cada cliente e fornecedor. Preza pela qualidade em cada projeto, com equipamentos de ponta, mão de obra qualificada e aprimoramento técnico contínuo, garantindo resultados superiores e o cumprimento rigoroso dos prazos de entrega.
+
+Propósito: entregar confiança, precisão e qualidade em cada projeto, mantendo uma relação de ética, respeito e prestação de contas com parceiros e clientes. Visão: ser reconhecida como uma empresa de excelência em usinagem, ferramentaria e caldeiraria.
+
+Diferenciais: comprometimento total com o cliente; transparência e equidade em todos os processos; equipamentos modernos e manutenção constante; equipe experiente e atendimento personalizado; foco em qualidade, precisão e prazo consciente.
 
 ## Como a Pastri trabalha
 
-1. Contato — o cliente descreve a peça, a máquina ou o serviço por WhatsApp, e-mail ou formulário do site.
+1. Contato — o cliente descreve a peça, a ferramenta ou a máquina por WhatsApp, e-mail ou formulário do site.
 2. Análise — a Pastri avalia o desenho, a amostra ou a máquina e define o melhor processo.
 3. Orçamento — proposta com escopo, prazo e condições bem definidos.
 4. Execução — usinagem ou reparo com acompanhamento e conferência das medidas durante o processo.
@@ -30,19 +53,19 @@ Instagram: https://www.instagram.com/pastriusinagem/
 ## Perguntas frequentes
 
 **Quais serviços a Pastri Usinagem faz?**
-Manutenção e reparação de máquinas-ferramenta e usinagem de alta performance em torno CNC com ferramenta acionada. Também tornearia, fresamento, soldagem e retífica. Tudo é feito em Campo Limpo Paulista/SP.
+É especializada em ferramentaria e peças específicas sob medida e trabalha com usinagem de alta performance em torno CNC com ferramenta acionada. Também faz manutenção e reparação de máquinas-ferramenta, fresamento em centro de usinagem, tornearia, retífica e soldagem. Tudo em Campo Limpo Paulista/SP.
 
 **O que é um torno CNC com ferramenta acionada?**
 É um torno CNC em que as ferramentas também giram, e não só a peça. Com isso a máquina fura, fresa e rosqueia na mesma fixação, sem tirar a peça e levar para outra máquina: menos operação, menos tempo de produção e menos erro de montagem de uma máquina para a outra.
 
-**A Pastri conserta máquina-ferramenta parada?**
-Sim. É um dos principais serviços. A empresa avalia a máquina, recupera o componente desgastado ou fabrica a peça de reposição e devolve a máquina trabalhando dentro da medida.
+**Que máquinas a Pastri Usinagem tem?**
+Centros de usinagem Orientools (Fanuc, X650 Y400 Z500, com 4º eixo opcional) e SIMCO SM1000 (Siemens 828D, 1000x500x500), fresa CNC Diplomat (Heidenhain, 1000x500x500), tornos CNC Romi Centur 30D (Siemens 828D), ITB-200/750 e ITBT 500, retífica plana Sulmecânica, torno mecânico Calvi, fresa ferramenteira ISO 40 Total e rosqueadeira eletrônica BT fixo.
 
 **A Pastri fabrica peças a partir de desenho ou de uma amostra?**
 Sim, a partir do desenho técnico, de uma amostra da peça ou das medidas que o cliente tiver. Quanto mais informação (desenho, foto, material, quantidade e prazo), mais rápido sai o orçamento.
 
 **A Pastri faz peça única ou só lote de produção?**
-Os dois. Peça única para reparo ou reposição urgente e lotes de produção com medidas repetidas. O torno CNC com ferramenta acionada garante a repetição no lote; a tornearia e a fresa resolvem a peça avulsa e o ajuste.
+Os dois. Peça única para reparo, ferramenta especial ou reposição urgente, e lotes de produção com medidas repetidas. O torno CNC com ferramenta acionada e os centros de usinagem garantem a repetição no lote; o torno mecânico e a fresa ferramenteira resolvem a peça avulsa e o ajuste.
 
 **Onde fica a Pastri Usinagem e como pedir um orçamento?**
-Em Campo Limpo Paulista/SP, atendendo a cidade e a região de Jundiaí. Para pedir um orçamento: WhatsApp (11) 99651-3914, e-mail comercial@pastriusinagem.com.br ou o formulário do site.
+Na Rua César Marquesini, 04, Jd. Vitória, Campo Limpo Paulista/SP, CEP 13236-272, atendendo a cidade e a região de Jundiaí. Para pedir um orçamento: WhatsApp (11) 99651-3914, telefone (11) 97485-2637, e-mail comercial@pastriusinagem.com.br ou o formulário do site. A empresa também recebe visitas com hora marcada.

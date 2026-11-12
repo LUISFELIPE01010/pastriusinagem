@@ -1,40 +1,66 @@
 De onde vieram as imagens de origem
 ===================================
 
-MATERIAL DO PROPRIO CLIENTE
----------------------------
-  logo-pastri.webp       logotipo enviado pelo cliente (amarelo sobre fundo
-                         branco; o script transforma o branco em transparencia)
-  fachada-pastri.jpg     foto da frente da empresa, enviada pelo cliente. Aparece
-                         na secao "Sobre nos", recortada no muro com o logo, no
-                         portao e na caminhonete (o recorte em pixels esta em
-                         scripts/gerar-imagens.cjs, campo "recorte")
+TODAS as fotos do site sao da propria Pastri Usinagem. Nao ha mais nenhuma foto
+de banco de imagens.
+
+
+DO PORTFOLIO DA EMPRESA
+-----------------------
+Arquivo de origem: "2 - Portfolio_Pastri_Profissional.pptx 2026.pptx", enviado
+pelo cliente. As fotos das maquinas estavam dentro de um quadro, por cima de uma
+versao desbotada e com marca d'agua da mesma foto; o que foi aproveitado e so o
+miolo desse quadro, sem marca d'agua e sem o veu branco.
+
+  hero-pastri.png              torno CNC ITBT 500 (slide 12) — foto da hero
+  oficina-vista.png            vista geral da oficina (slide 6) — faixa do processo
+
+  maq-orientools.png           Centro de usinagem Orientools (slide 7)
+  maq-simco.png                Centro de usinagem SIMCO SM1000 (slide 8)
+  maq-diplomat.png             Fresa CNC Diplomat / Petrus (slide 9)
+  maq-romi.png                 Torno CNC Romi Centur 30D (slide 10)
+  maq-itb200.png               Torno CNC ITB-200/750 (slide 11)
+  maq-itbt500.png              Torno CNC ITBT 500 (slide 12)
+  maq-retifica.png             Retifica plana Sulmecanica (slide 13)
+  maq-calvi.png                Torno mecanico Calvi (slide 14)
+  maq-fresa-ferramenteira.png  Fresa ferramenteira ISO 40 Total (slide 15)
+  maq-rosqueadeira.png         Rosqueadeira eletronica BT fixo (slide 16)
+
+  card-tornearia.png           torno CNC ITB-200/750 (slide 11)
+  card-fresamento.png          fresa CNC Diplomat em operacao (slide 9)
+  card-ferramentaria.png       dispositivo de fixacao usinado (slide 20)
+
+  projeto-eixos.png            lote de eixos usinados (slide 23)
+  projeto-buchas.png           buchas de aco (slide 23)
+  projeto-anel.png             anel de grande diametro (slide 23)
+  projeto-buchas-rosca.png     buchas com rosca interna (slide 23)
+  projeto-dispositivo.png      dispositivo de fixacao (slide 20)
+  projeto-estampo.png          ferramenta de estampo (slide 19)
+  projeto-molde.png            relevo usinado em aluminio (slide 24)
+  projeto-bucha-flangeada.png  bucha flangeada retificada (slide 24)
+
+
+MATERIAL ENVIADO ANTES, PELO CLIENTE
+------------------------------------
+  logo-pastri.webp       logotipo (amarelo sobre fundo branco; o script
+                         transforma o branco em transparencia)
+  fachada-pastri.jpg     foto da frente da empresa. Aparece na secao "Sobre nos",
+                         recortada no muro com o logo, no portao e na caminhonete
+                         (o recorte em pixels esta em scripts/gerar-imagens.cjs,
+                         campo "recorte")
   prototipo-hero.webp    prototipo da hero aprovado pelo cliente. NAO e usado
                          pelo site: fica aqui so como referencia. Dele sairam o
                          amarelo da marca (#f8c204), a inclinacao da diagonal, a
                          listra amarela e a altura da hero.
 
 
-FOTOS DO BANCO DE IMAGENS PEXELS
---------------------------------
-Licenca Pexels: uso gratuito, inclusive comercial, sem precisar dar credito.
-Nao e permitido revender a foto sem alteracao nem dar a entender que a pessoa
-fotografada apoia/endossa a empresa. Texto da licenca: https://www.pexels.com/license/
-
-  hero-usinagem.jpg        https://www.pexels.com/photo/20607184/
-  card-tornearia.jpg       https://www.pexels.com/photo/11951233/
-  card-fresamento.jpg      https://www.pexels.com/photo/28929513/
-  card-manutencao.jpg      https://www.pexels.com/photo/4489758/
-  faixa-oficina.jpg        https://www.pexels.com/photo/12951631/
-  projeto-torno-cnc.jpg    https://www.pexels.com/photo/7018173/
-  projeto-fresamento.jpg   https://www.pexels.com/photo/8956313/
-  projeto-solda.jpg        https://www.pexels.com/photo/34039390/
-  projeto-retifica.jpg     https://www.pexels.com/photo/17156135/
-
-Sao fotos ILUSTRATIVAS: mostram o tipo de servico, nao os trabalhos da Pastri.
-A pagina avisa isso na secao Projetos. Quando o cliente mandar as fotos reais da
-oficina, troque o arquivo aqui (mesmo nome) e rode: npm run imagens
+O QUE NAO FOI PARA O SITE
+-------------------------
+O slide 25 do portfolio tem os logotipos de clientes e parceiros. Esses logos
+NAO foram publicados: usar a marca de outra empresa no site exige autorizacao
+dela. Se o cliente tiver essa autorizacao por escrito, da para montar a secao.
 
 As fotos sao geradas com pouca cor (campo "cinza" em scripts/gerar-imagens.cjs):
-a hero fica quase em preto e branco, como no prototipo, e as demais ficam entre
-o preto e branco e a cor original, para combinar com o amarelo da marca.
+a hero fica quase em preto e branco, como no prototipo, e os cards ficam entre o
+preto e branco e a cor original, para combinar com o amarelo da marca. As fotos
+das pecas e das maquinas ficam na cor natural.
