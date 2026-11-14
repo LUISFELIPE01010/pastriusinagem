@@ -46,6 +46,46 @@ const QUALIDADE = { webp: 80, avif: 52 };
      cinza   — 0 a 1: quanto de cor sobra (o prototipo e preto e branco)
      recorte — [esquerda, topo, largura, altura] em pixels, quando um pedaco
                exato da foto original precisa ser usado */
+/* logos dos principais clientes, enviados pelo dono da Pastri.
+   Cada arquivo vira um WebP de 140px de altura. "recorte" (em fracao da
+   largura/altura: [esquerda, topo, largura, altura]) serve para os logos que
+   vieram dentro de uma arte maior, com fundo colorido e texto extra. */
+const CLIENTES = {
+  'ksb':                { de: 'ksb.jpg' },
+  'hmy':                { de: 'hmy.jpg' },
+  'estamparia-itupeva': { de: 'estamparia-itupeva.jpg' },
+  'rhino-maquinas':     { de: 'rhino-maquinas.jpg' },
+  'lakatos':            { de: 'lakatos.jpg' },
+  'plp':                { de: 'plp.jpg', recorte: [0.27, 0.17, 0.47, 0.49] }, // so a elipse: a arte original traz tambem a onda branca e o endereco do site
+  'sicamet':            { de: 'sicamet.jpg' },
+  'flowcast':           { de: 'flowcast.jpg' },
+};
+
+const ALTURA_LOGO = 140;
+
+async function fazerClientes() {
+  const destino = path.join(DESTINO, 'clientes');
+  fs.mkdirSync(destino, { recursive: true });
+  for (const [nome, cfg] of Object.entries(CLIENTES)) {
+    const entrada = path.join(ORIGEM, 'clientes', cfg.de);
+    if (!fs.existsSync(entrada)) throw new Error('falta o logo: ' + entrada);
+    let img = sharp(entrada);
+    if (cfg.recorte) {
+      const m = await img.metadata();
+      const [l, t, w, h] = cfg.recorte;
+      img = sharp(entrada).extract({
+        left: Math.round(m.width * l), top: Math.round(m.height * t),
+        width: Math.round(m.width * w), height: Math.round(m.height * h),
+      });
+    }
+    const arq = path.join(destino, nome + '.webp');
+    await img.trim({ threshold: 12 })
+      .resize({ height: ALTURA_LOGO, width: 520, fit: 'inside', withoutEnlargement: true, kernel: 'lanczos3' })
+      .webp({ quality: 88 }).toFile(arq);
+    gerados.push(arq);
+  }
+}
+
 const FOTOS = {
   // 2,25 e a proporcao da area da hero no computador. Cortar ja nessa proporcao
   // evita o navegador cortar de novo por cima. Quase sem cor, como no prototipo.
@@ -233,6 +273,7 @@ async function fazerOg(logoPng) {
   for (const [nome, cfg] of Object.entries(FOTOS)) {
     await salvarVariantes(nome, cfg.de, cfg);
   }
+  await fazerClientes();
   await fazerOg(png);
 
   let total = 0;

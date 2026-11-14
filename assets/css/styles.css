@@ -231,6 +231,9 @@ p{margin:0}
 /* o texto pequeno de cima faz parte do H1 (a palavra-chave entra no titulo) */
 .hero__title .eyebrow{display:flex;font-family:var(--font);letter-spacing:.2em;line-height:1.6;margin-bottom:1.4rem}
 .hero__p{margin-top:1.2rem;max-width:34rem;color:#d7d7d9;font-size:clamp(.95rem,2.6vw,1.05rem);line-height:1.7}
+.hero__p + .hero__p{margin-top:.85rem}
+/* a frase de fecho, um pouco mais clara, para encerrar o bloco */
+.hero__p--fecho{color:#ededee;font-weight:500}
 .hero__actions{margin-top:1.9rem;display:flex;flex-wrap:wrap;align-items:center;gap:1.1rem}
 .hero__actions .sep{display:none;width:1px;height:34px;background:rgba(255,255,255,.3)}
 /* link do Instagram ao lado do botao, como no prototipo */
@@ -620,3 +623,24 @@ p{margin:0}
 .faq__a{padding:0 1.3rem 1.3rem}
 .faq__a p{font-size:.95rem;line-height:1.75;color:var(--muted-light)}
 .faq__a p + p{margin-top:.7rem}
+
+/* ---------- 20. Principais clientes ---------- */
+.clientes{background:#fff;border-block:1px solid var(--line)}
+.clientes__grid{
+  margin-top:2.2rem;display:flex;flex-wrap:wrap;gap:1px;
+  background:var(--line);border:1px solid var(--line);
+}
+.cliente{background:#fff;display:grid;place-items:center;padding:1.3rem 1rem;min-height:106px;
+  flex:1 1 calc(50% - 1px)}
+.cliente img{max-height:52px;width:auto;max-width:min(100%,170px);object-fit:contain;
+  opacity:.9;transition:opacity .3s ease,transform .3s ease}
+.cliente:hover img{opacity:1;transform:scale(1.04)}
+/* logos que vieram com fundo colorido proprio: sem clarear, e com o canto
+   arredondado para o retangulo de cor nao brigar com as celulas brancas */
+.cliente--fundo img{opacity:1;border-radius:5px;max-height:48px}
+/* logos mais quadrados (Estamparia Itupeva, Flowcast, Rhino, PLP, Sicamet):
+   maiores, senao o nome dentro deles fica pequeno demais para ler */
+.cliente--alto img{max-height:78px;max-width:min(100%,190px)}
+.cliente--fundo.cliente--alto img{max-height:66px}
+@media (min-width:560px){ .cliente{flex-basis:calc(33.3333% - 1px)} }
+@media (min-width:900px){ .cliente{flex-basis:calc(25% - 1px);min-height:124px} }

@@ -91,11 +91,25 @@ MATERIAL ENVIADO ANTES, PELO CLIENTE
                          listra amarela e a altura da hero.
 
 
-O QUE NAO FOI PARA O SITE
--------------------------
-O slide 25 do portfolio tem os logotipos de clientes e parceiros. Esses logos
-NAO foram publicados: usar a marca de outra empresa no site exige autorizacao
-dela. Se o cliente tiver essa autorizacao por escrito, da para montar a secao.
+LOGOS DOS PRINCIPAIS CLIENTES (13/11/2026)
+------------------------------------------
+Em 12/11/2026 esses logos ficaram de fora, porque usar a marca de outra empresa
+exige o aval dela. Em 13/11/2026 o dono da Pastri pediu a secao por escrito, no
+WhatsApp ("Principais clientes, voce pode adicionar?"), e mandou os arquivos.
+A secao "Principais clientes" entrou com base nesse pedido.
+
+  fotos-origem/clientes/  ksb, hmy, estamparia-itupeva, rhino-maquinas,
+                          lakatos, plp, sicamet, flowcast
+
+Os arquivos vieram em 1600px de largura, dentro de uma arte com sobra de fundo.
+O script corta a sobra sozinho (sharp .trim) e gera cada um com 140px de altura
+em assets/img/clientes/. O da PLP vinha com a onda branca e o endereco do site
+embaixo; dele e recortada so a elipse (campo "recorte" em CLIENTES, no
+scripts/gerar-imagens.cjs).
+
+ATENCAO: quem responde por usar cada marca e a propria Pastri. Vale confirmar
+com cada cliente se ele autoriza aparecer como referencia no site, principalmente
+os de fora (KSB, HMY, PLP).
 
 As fotos sao geradas com pouca cor (campo "cinza" em scripts/gerar-imagens.cjs):
 a hero fica quase em preto e branco, como no prototipo, e os cards ficam entre o
