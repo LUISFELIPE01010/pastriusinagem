@@ -27,7 +27,7 @@ Lema: Precisão que transforma projetos em resultados.
 - Centro de usinagem SIMCO SM1000 — comando Siemens 828D, curso 1000 x 500 x 500
 - Fresa CNC Diplomat — comando Heidenhain, curso 1000 x 500 x 500
 - Torno CNC Romi Centur 30D — comando Siemens 828D
-- Torno CNC ITB-200/750
+- Torno CNC ITBT 500 com ferramenta acionada
 - Torno CNC ITBT 500
 - Retífica plana Sulmecânica
 - Torno mecânico Calvi

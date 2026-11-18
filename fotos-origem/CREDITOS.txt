@@ -44,7 +44,7 @@ miolo desse quadro, sem marca d'agua e sem o veu branco.
   maq-simco.webp                Centro de usinagem SIMCO SM1000 (slide 8)
   maq-diplomat.webp             Fresa CNC Diplomat / Petrus (slide 9)
   maq-romi.webp                 Torno CNC Romi Centur 30D (slide 10)
-  maq-itb200.webp               Torno CNC ITB-200/750 (slide 11)
+  maq-itbt500-ferramenta-acionada.webp  Torno CNC ITBT 500 com ferramenta acionada (foto enviada pelo cliente)
   maq-itbt500.webp              Torno CNC ITBT 500 (slide 12)
   maq-retifica.webp             Retifica plana Sulmecanica (slide 13)
   maq-calvi.webp                Torno mecanico Calvi (slide 14)

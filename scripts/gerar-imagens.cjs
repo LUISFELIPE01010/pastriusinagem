@@ -126,7 +126,7 @@ const FOTOS = {
   'maq-simco':              { de: 'maq-simco.webp',              proporcao: 4 / 3, larguras: [320, 480, 640] },
   'maq-diplomat':           { de: 'maq-diplomat.webp',           proporcao: 4 / 3, larguras: [320, 480, 640] },
   'maq-romi':               { de: 'maq-romi.webp',               proporcao: 4 / 3, larguras: [320, 480, 640] },
-  'maq-itb200':             { de: 'maq-itb200.webp',             proporcao: 4 / 3, larguras: [320, 480, 640] },
+  'maq-itbt500-fa':         { de: 'maq-itbt500-ferramenta-acionada.webp', proporcao: 4 / 3, larguras: [320, 480, 640] },
   'maq-itbt500':            { de: 'maq-itbt500.webp',            proporcao: 4 / 3, larguras: [320, 480, 640] },
   'maq-retifica':           { de: 'maq-retifica.webp',           proporcao: 4 / 3, larguras: [320, 480, 640] },
   'maq-calvi':              { de: 'maq-calvi.webp',              proporcao: 4 / 3, larguras: [320, 480, 640] },
